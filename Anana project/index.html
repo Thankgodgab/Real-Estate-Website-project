@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Nwacha's Agency Limited</title>
+    </head>
+    <body onload="allfunction(salesSliderShow1, salesSliderShow2, salesSliderShow3)">
+        <section id="landing-page">
+            <div class="landing-container">
+                <div class="landing-content">
+                    <div class="img-container">
+                        <img src="./assest/logo.png" alt="icon of an house" width="200px" height="200px">
+                    </div>
+                    <div class="text-container">
+                        <h1>Nwacha's Agency Limited</h1>
+                        <p>let's help you find your dream house...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="home-page">
+            <div class="home-container">
+                <div class="home-content">
+                    <div class="home-items item1">
+                        <!-- <div class="logo-img">
+                            <img src="./assest/full logo.png" alt="logo of the company" width="100px" height="70px">
+                        </div> -->
+                        <div class="text-content">
+                            <p>Let us help you find and Build your dream home.</p>
+                            <div class="button">
+                                <a id="buy" onclick="buy()">Buy a Home</a>
+                                <a id="list" onclick="rent()">List a Home</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-items item2">
+                        <img src="./assest/sales2.jpg" alt="image of a modern interior home" width="100%" height="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service">
+            <div class="service-container">
+                <div class="service-content">
+                    <div class="service-items img-item">
+                        <img src="./assest/services.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="service-items text-item">
+                        <div class="property">
+                            <h2>Our Services includes:</h2>
+                            <ol class="list">
+                                <li>Property Development</li>
+                                <li>Property Management</li>
+                                <li>Sales of Properties</li>
+                            </ol>
+                            <div class="button">
+                                 <a href="#contact-page"> Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sales">
+            <div class="sales-container">
+                <div class="sales-content">
+                    <h2 class="header">Properties for Sale</h2>
+                    <div class="sales-categories">
+                        <div class="sales-item">
+                            <div class="image">
+                                <img src="/assest/sales2.jpg" height="100%" width="100%" id="slider-1" class="slider-image">
+                            </div>
+                            <hr>
+                            <div class="location">
+                                <p>Town-house</p>
+                                <h3>123 Anywhere Street, Any City</h3>
+                                <p>2 Bed | 1 Bath | 1 Car</p>
+                                <p>wheelchair accesssible listing</p>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="sales-item">
+                            <div class="image">
+                                <img src="/assest/sales3.jpg" height="100%" width="100%" id="slider-2" class="slider-image">
+                            </div>
+                            <hr>
+                            <div class="location">
+                                <p>Town-house</p>
+                                <h3>123 Anywhere Street, Any City</h3>
+                                <p>2 Bed | 1 Bath | 1 Car</p>
+                                <p>wheelchair accesssible listing</p>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="sales-item">
+                            <div class="image">
+                                <img src="/assest/sales4.jpg" height="100%" width="100%" id="slider-3" class="slider-image">
+                            </div>
+                            <hr>
+                            <div class="location">
+                                <p>Town-house</p>
+                                <h3>123 Anywhere Street, Any City</h3>
+                                <p>2 Bed | 1 Bath | 1 Car</p>
+                                <p>wheelchair accesssible listing</p>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="rent">
+            <div class="rent-container">
+                <div class="rent-content">
+                    <h2 class="header">Properties for Rent</h2>
+                    <div class="rent-categories">
+                        <div class="rent-item">
+                            <div class="image">
+                                <img src="./assest/rent1.jpg" width="100%" height="100%">
+                            </div>
+                            <hr>
+                            <div class="location">
+                                <p>Town-house</p>
+                                <h3>123 Anywhere Street, Any City</h3>
+                                <p>2 Bed | 1 Bath | 1 Car</p>
+                                <p>wheelchair accesssible listing</p>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="rent-item">
+                            <div class="image">
+                                <img src="./assest/rent2.jpg" width="100%" height="100%">
+                            </div>
+                            <hr>
+                            <div class="location">
+                                <p>Town-house</p>
+                                <h3>123 Anywhere Street, Any City</h3>
+                                <p>2 Bed | 1 Bath | 1 Car</p>
+                                <p>wheelchair accesssible listing</p>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="rent-item">
+                            <div class="image">
+                                <img src="./assest/rent3.jpg" width="100%" height="100%">
+                            </div>
+                            <hr>
+                            <div class="location">
+                                <p>Town-house</p
+                                <h3>123 Anywhere Street, Any City</h3>
+                                <p>2 Bed | 1 Bath | 1 Car</p>
+                                <p>wheelchair accesssible listing</p>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimony_page">
+            <div class="testimony_page-container">
+                <div class="testimony_page-content">
+                    <h2>Happy Client</h2>
+                    <div class="testimonies">
+                        <div class="client">
+                            <span></span>
+                            <hr>
+                            <p class="first">Boost your product and services credibility by adding testimonies from your client. people love recommendation so feedback from others who've tried is is invaluable.</p>
+                            <div class="name"><p>-Natelie Lowe</p></div>
+                        </div>
+                        <div class="client">
+                            <span></span>
+                            <hr>
+                            <p class="first">Boost your product and services credibility by adding testimonies from your client. people love recommendation so feedback from others who've tried is is invaluable.</p>
+                            <p>Boost your product and services credibility by adding testimonies from your client.</p>
+                            <div class="name"><p>-Natelie Lowe</p></div>
+                        </div>
+                        <div class="client">
+                            <span></span>
+                            <hr>
+                            <p class="first">Boost your product and services credibility by adding testimonies from your client. people love recommendation so feedback from others who've tried is is invaluable.</p>
+                            <div class="name"><p>-Natelie Lowe</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-page">
+            <div class="contact_page-container">
+                <div class="contact_page-content">
+                    <div class="content-container" id="form">
+                        <div class="form_group">
+                            <h2>Write Us</h2>
+                            <form id="contact-form">
+                                <input type="text" placeholder="Name" id="name" required>
+                                <input type="text" placeholder="Email" id="email">
+                                <input type="text" placeholder="Subject" id="subject" required>
+                                <textarea  placeholder="Message" id="message"></textarea>
+                                <button type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact_page-content">
+                    <div class="contact_information">
+                        <h2>Contact Information</h2>
+                        <p>We're open for any suggestion or just to have a chat</p>
+                        <div class="socials">
+                            <div class="social-group">
+                                 <a href="#"> <i class="fa-solid fa-location-dot"></i></a>
+                                <p><span><b>Address: </b></span>Comapny Address</p>
+                            </div>
+                            <div class="social-group">
+                                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                                <p><span><b>Phone: </b></span>+234-800-900-8009</p>
+                            </div>
+                            <div class="social-group">
+                                <a href="#"><i class="fa-solid fa-paper-plane"></i></i></a>
+                                <p><span><b>Email: </b></span>info@nwachaltd.com</p>
+                            </div>
+                            <div class="social-group">
+                                <a href="#"><i class="fa-solid fa-earth-europe"></i></a>
+                                <p><span><b>Website: </b></span>nwachasagency.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
